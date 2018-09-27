@@ -55,7 +55,7 @@ def gpxx():
                 print("票只能为数字，请正确输入")
 
      #班次为 1 (重庆到贵阳的) ，调用购票函数，并传入对应的参数
-        if(yy == 1):
+        if yy == 1:
             yy_sl = gpps()
             m = gp(cq_gy,cq_gy_dj,yy,yy_sl,"重庆到贵阳")
             #这个是购票函数里有最外层循环的break，会报错，用参数传出来，再break
